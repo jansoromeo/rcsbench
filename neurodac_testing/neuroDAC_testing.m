@@ -23,24 +23,18 @@ osc.Frequency = 20;
 % (they are representative on order of magnitude)
 % balanced R 1K
 % osc.Amplitude = 1.0 -> 83 uV-peak, balanced R 1K
-% osc.Amplitude = 0.8 -> 64 uV-peak, balanced R 1K
-% osc.Amplitude = 0.6 -> 50 uV-peak, balanced R 1K
-% osc.Amplitude = 0.4 -> 45 uV-peak, balanced R 1K
-% osc.Amplitude = 0.2 -> 20 uV-peak, balanced R 1K
-% unbalanced 1K RC
-% osc.Amplitude = 0.2 -> 75 uV-peak, unbalanced 1K RC
-% osc.Amplitude = 0.1 -> 36 uV-peak, unbalanced 1K RC
-% osc.Amplitude = 0.005 -> 1 uV-peak, unbalanced 1K RC
+% osc.Amplitude = 0.7 -> 50 uV-peak, balanced R 1K
 osc.Amplitude = 1;
-interBurstInterval_s = 0.1;
-numberBursts = 5;
+scaleAmplitudFactor = 0.7;
+interBurstInterval_s = 2;
+numberBursts = 8;
 durationBurstAU = 125; % units not yet worked out, defines duration of main burst
 numSubBurst = 5;    % number of subbursts with changing amplitude witin main burst
 
 %% Initialize session input parameters
-outVoltAmpSweep = 0;
-maxBurstAmplitude = 2; % approx 100 uVpeak in balanced RCS input amplifier (not yet accurate scaling,TO BE DONE!)
-showScope = 1;
+outVoltAmpSweep = 1;
+maxBurstAmplitude = 1; % approx 100 uVpeak in balanced RCS input amplifier (not yet accurate scaling,TO BE DONE!)
+showScope = 0;
 
 %% Initialize loop variables
 cycleCount = 0;
@@ -87,7 +81,7 @@ while cycleCount < numberBursts
         while (devWriterCount < durationBurstAU)
             devWriterCount = devWriterCount + 1;
             pause(0.01);
-            sineWave = osc();
+            sineWave = scaleAmplitudFactor*osc();
             if showScope
                 scope(sineWave);
             end
