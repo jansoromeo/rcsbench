@@ -26,7 +26,6 @@ The different elements of the benchtop are
 * Signal acquisition (NI LabView 2019) (https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#369643)
   * [myDAQ meas functions] (https://github.com/jansoromeo/labview-DAQ)
 
-![Overview of bencthop elements hardware and software]
-(https://github.com/jansoromeo/rcsbench/blob/master/figures/diagram_overview.png)
+![Overview of bencthop elements hardware and software](https://github.com/jansoromeo/rcsbench/blob/master/figures/diagram_overview.png)
 
 ## ...
