@@ -22,7 +22,7 @@ This is work-in-progress in the lab and there is a moving effort with Oxford (mo
 ```
 An overview of the different hardware and software elements that can be used with the benchtop are listed below:
 ```
-
+![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/schem_rcs_to_tissue.png)
 
 *Hardware*
 * RC+S: INS and lead extensor cable
