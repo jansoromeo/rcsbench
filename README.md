@@ -52,6 +52,6 @@ An overview of the different hardware and software elements that can be used wit
 In this configuration the RC+S benchtop is interfaced to the PicoScope signal generator
 
 ```
-![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/setup1_1_complete.png.png)
+![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/setup1_1_complete.png)
 
 
