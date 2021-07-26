@@ -59,3 +59,5 @@ In this configuration the RC+S benchtop is interfaced to the PicoScope signal ge
 
 ![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/simp_elec_schema.png)
 
+![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/bench_board_pin_out_schema.png)
+
