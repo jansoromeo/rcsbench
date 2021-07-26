@@ -57,7 +57,9 @@ In this configuration the RC+S benchtop is interfaced to the PicoScope signal ge
 ```
 ![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/setup_complete.png)
 
-![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/simp_elec_schema.png)
+### Schematic of electrode-tissue contact resistance model (ideal)
+![simplified schema](https://github.com/jansoromeo/rcsbench/blob/master/figures/simp_elec_schema.png)
 
-![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/bench_board_pin_out_schema.png)
+### Input/output breadboard
+![Tissue model breadboard 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/bench_board_pin_out_schema.png)
 
