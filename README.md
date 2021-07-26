@@ -23,7 +23,7 @@ This is work-in-progress in the lab and there is a moving effort with Oxford (mo
 An overview of the different hardware and software elements that can be used with the benchtop are listed below:
 ```
 
-![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/schem_rcs_to_tissue_1_1.png)
+![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/rcs_to_tissue.png)
 
 ![overview hw and sw elements](https://github.com/jansoromeo/rcsbench/blob/master/figures/Overview_system.png)
 
@@ -42,7 +42,7 @@ An overview of the different hardware and software elements that can be used wit
 *Software*
 * UCSF software to interface RCS:
   * [Researcher Facing Application](https://github.com/openmind-consortium/App-aDBS-ResearchFacingApp)
-  * [Patient Facing Application)](https://github.com/openmind-consortium/App-aDBS-ResearchFacingApp)
+  * [Patient Facing Application](https://github.com/openmind-consortium/App-aDBS-ResearchFacingApp)
 * Signal input/output
   * Signal generator [PiscoScope 6](https://www.picotech.com/downloads) (only tested in Windows version)
   * [neuroDAC](https://github.com/neuromotion/neurodac)
@@ -55,6 +55,7 @@ An overview of the different hardware and software elements that can be used wit
 In this configuration the RC+S benchtop is interfaced to the PicoScope signal generator
 
 ```
-![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/setup1_1_complete.png)
+![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/setup_complete.png)
 
+![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/simp_elec_schema.png)
 
