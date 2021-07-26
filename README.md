@@ -25,7 +25,7 @@ An overview of the different hardware and software elements that can be used wit
 
 ![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/rcs_to_tissue.png)
 
-![overview hw and sw elements](https://github.com/jansoromeo/rcsbench/blob/master/figures/overview_system.png)
+![overview hw and sw elements](https://github.com/jansoromeo/rcsbench/blob/master/figures/Overview_system.png)
 
 *Hardware*
 * RC+S: INS and lead extensor cable
@@ -42,7 +42,7 @@ An overview of the different hardware and software elements that can be used wit
 *Software*
 * UCSF software to interface RCS:
   * [Researcher Facing Application](https://github.com/openmind-consortium/App-aDBS-ResearchFacingApp)
-  * [Patient Facing Application)](https://github.com/openmind-consortium/App-aDBS-ResearchFacingApp)
+  * [Patient Facing Application](https://github.com/openmind-consortium/App-aDBS-ResearchFacingApp)
 * Signal input/output
   * Signal generator [PiscoScope 6](https://www.picotech.com/downloads) (only tested in Windows version)
   * [neuroDAC](https://github.com/neuromotion/neurodac)
