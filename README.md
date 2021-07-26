@@ -22,22 +22,15 @@ This is work-in-progress in the lab and there is a moving effort with Oxford (mo
 ```
 An overview of the different hardware and software elements that can be used with the benchtop are listed below:
 ```
-![Overview of bencthop elements hardware and software](https://github.com/jansoromeo/rcsbench/blob/master/figures/Overview_system.png)
+
 
 *Hardware*
 * RC+S: INS and lead extensor cable
-![RC+S INS and single (not double) lead extensor cable](https://github.com/jansoromeo/rcsbench/blob/master/figures/schem_rcs_to_tissue.png)
-
-![Quick probe extensor lead cable connection](https://github.com/jansoromeo/rcsbench/blob/master/figures/Quick_lab_probes.png)
-
 * Electrode tissue interface (Star Load)
   * Resistor balanced (1Kohm)
   * Resistor imbalanced (1Kohm vs 4K7)
   * Resistor and capacitor imbalanced
-
-
-
-* Signal input:
+* Signal input/output:
   * Signal generator
   * neuroDAC (audio DAQ)
   * preSonus (audio DAQ)
@@ -47,7 +40,7 @@ An overview of the different hardware and software elements that can be used wit
 * UCSF software to interface RCS:
   * [Researcher Facing Application](https://github.com/openmind-consortium/App-aDBS-ResearchFacingApp)
   * [Patient Facing Application)](https://github.com/openmind-consortium/App-aDBS-ResearchFacingApp)
-* Signal input
+* Signal input/output
   * Signal generator [PiscoScope 6](https://www.picotech.com/downloads) (only tested in Windows version)
   * [neuroDAC](https://github.com/neuromotion/neurodac)
   * [preSonuns](https://github.com/openmind-consortium/UCSF_benchtop_testing)
@@ -58,8 +51,7 @@ An overview of the different hardware and software elements that can be used wit
 ```
 In this configuration the RC+S benchtop is interfaced to the PicoScope signal generator
 
-
 ```
-![Example bench config with PicoScope sig gen](https://github.com/jansoromeo/rcsbench/blob/master/figures/example_setup1.jpeg)
+![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/setup1_1_complete.png.png)
 
 
