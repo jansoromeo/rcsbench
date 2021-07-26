@@ -1,6 +1,6 @@
 # rcsbechtop UCSF
 
-## Overview
+## Introduction
 The goal of the UCSF RC+S benchtop is to create a physical environment to gain experience using the different functionalities of the RC+S device. A first version of benchtop setup for RC+S was developed by our colleague Maria Olaru [UCSF benchtop system](https://github.com/openmind-consortium/UCSF_benchtop_testing). Here we extend that original version of the setup. We add work on a circuit model to recreate electrode-tissue load characteristics.
 
 The RC+S benchtop can be used to learn (train) how to use RC+S software developed at our lab [(see Researcher Facing Application](https://github.com/openmind-consortium/App-aDBS-ResearchFacingApp) and [Patient Facing Application)](https://github.com/openmind-consortium/App-aDBS-ResearchFacingApp). For that purpose (software navigation, changing settings, configuration files, etc), there is no need to use benchtop hardware configurations, so you may want to skip this tutorial.
@@ -18,27 +18,25 @@ This is work-in-progress in the lab and there is a moving effort with Oxford (mo
 
 ***
 
-*Introduction*
-
-*Summary*
-
-*Experimental details*
-
-*Results and discussion*
-
-*Body*
-
-*Conclusion*
-
-
-An overview of the different hardware and software elements that can be used with the benchtop are listed below
+## System Elements Overview 
+```
+An overview of the different hardware and software elements that can be used with the benchtop are listed below:
+```
+![Overview of bencthop elements hardware and software](https://github.com/jansoromeo/rcsbench/blob/master/figures/Overview_system.png)
 
 *Hardware*
 * RC+S: INS and lead extensor cable
+![RC+S INS and single (not double) lead extensor cable](https://github.com/jansoromeo/rcsbench/blob/master/figures/schem_rcs_to_tissue.png)
+
+![Quick probe extensor lead cable connection](https://github.com/jansoromeo/rcsbench/blob/master/figures/Quick_lab_probes.png)
+
 * Electrode tissue interface (Star Load)
   * Resistor balanced (1Kohm)
   * Resistor imbalanced (1Kohm vs 4K7)
   * Resistor and capacitor imbalanced
+
+
+
 * Signal input:
   * Signal generator
   * neuroDAC (audio DAQ)
@@ -46,7 +44,6 @@ An overview of the different hardware and software elements that can be used wit
 * Signal acquistion: NI myDAQ
 
 *Software*
-
 * UCSF software to interface RCS:
   * [Researcher Facing Application](https://github.com/openmind-consortium/App-aDBS-ResearchFacingApp)
   * [Patient Facing Application)](https://github.com/openmind-consortium/App-aDBS-ResearchFacingApp)
@@ -57,6 +54,12 @@ An overview of the different hardware and software elements that can be used wit
 * Signal acquisition [NI LabView 2019](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#369643)
   * [myDAQ meas functions](https://github.com/jansoromeo/labview-DAQ)
 
-![Overview of bencthop elements hardware and software](https://github.com/jansoromeo/rcsbench/blob/master/figures/Overview_system.png)
+## Example Benchtop Configuraiton 1
+```
+In this configuration the RC+S benchtop is interfaced to the PicoScope signal generator
 
-## ...
+
+```
+![Example bench config with PicoScope sig gen](https://github.com/jansoromeo/rcsbench/blob/master/figures/example_setup1.jpeg)
+
+
