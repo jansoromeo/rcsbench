@@ -51,11 +51,19 @@ An overview of the different hardware and software elements that can be used wit
   * [myDAQ meas functions](https://github.com/jansoromeo/labview-DAQ)
 
 ## Example Benchtop Configuraiton 1
-```
 In this configuration the RC+S benchtop is interfaced to the PicoScope signal generator
 
-```
 ![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/setup_complete.png)
 
-![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/simp_elec_schema.png)
+### Schematic of electrode-tissue contact resistance model (ideal)
+![simplified schema](https://github.com/jansoromeo/rcsbench/blob/master/figures/simp_elec_schema.png)
+
+### Input/output breadboard
+The bread board can be used for 3 different conditions of the "star load"
+
+1. Resistive unbalanced (mismatch)
+2. Resistive balanced (match)
+3. Resisitive and capacitive unbalanced (closer to real conditions; results in self-triggering when testing 'fast aDBS')
+
+![Tissue model breadboard 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/bench_board_pin_out_schema.png)
 
