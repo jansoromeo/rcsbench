@@ -33,9 +33,9 @@ An overview of the different hardware and software elements that can be used wit
   * Resistor and capacitor unbalanced
 * Signal input/output:
   * Signal generator (config explained in this README)
-  * neuroDAC (audio DAQ) (not exaplined in this tutorial - see reference paper above)
-  * preSonus (audio DAQ) (from Maria's project - see reference repo above)
-* Signal acquistion: NI myDAQ (not explained here - [labview scripts for datalogging](https://github.com/jansoromeo/labview-DAQ)and RC+S example dataset recorded with the benchtop configuraiton explained before can be found [here](https://github.com/openmind-consortium/Analysis-rcs-data/tree/master/testDataSets/Benchtop/Simultaneous_RCS_and_DAQ))
+  * neuroDAC (audio DAQ) (not exaplined here - [neuroDAC paper](https://iopscience.iop.org/article/10.1088/1741-2552/abc7f0))
+  * preSonus (audio DAQ) (not explained here - [preSonus benchtop](https://github.com/openmind-consortium/UCSF_benchtop_testing))
+* Signal acquistion: NI myDAQ (not explained here - [labview scripts for datalogging](https://github.com/jansoromeo/labview-DAQ) and RC+S [example dataset](https://github.com/openmind-consortium/Analysis-rcs-data/tree/master/testDataSets/Benchtop/Simultaneous_RCS_and_DAQ) recorded with the benchtop configuraiton explained below `Example Benchtop Configuraiton 1`)
 
 *Software*
 * UCSF software to interface RCS:
