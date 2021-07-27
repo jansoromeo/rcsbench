@@ -19,9 +19,7 @@ This is work-in-progress in the lab and there is a moving effort with Oxford (mo
 ***
 
 ## System Elements Overview 
-```
 An overview of the different hardware and software elements that can be used with the benchtop are listed below:
-```
 
 ![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/rcs_to_tissue.png)
 
@@ -51,7 +49,7 @@ An overview of the different hardware and software elements that can be used wit
   * [myDAQ meas functions](https://github.com/jansoromeo/labview-DAQ)
 
 ## Example Benchtop Configuraiton 1
-In this configuration the RC+S benchtop is interfaced to the PicoScope signal generator
+In this configuration the RC+S benchtop is interfaced with the signal generator.
 
 ![setup 1](https://github.com/jansoromeo/rcsbench/blob/master/figures/setup_complete.png)
 
@@ -59,8 +57,7 @@ In this configuration the RC+S benchtop is interfaced to the PicoScope signal ge
 ![simplified schema](https://github.com/jansoromeo/rcsbench/blob/master/figures/simp_elec_schema.png)
 
 ### Input/output breadboard
-The bread board can be used for 3 different conditions of the "star load"
-
+The bread board can be used for 3 different conditions of the 'star load':
 1. Resistive unbalanced (mismatch)
 2. Resistive balanced (match)
 3. Resisitive and capacitive unbalanced (closer to real conditions; results in self-triggering when testing 'fast aDBS')
