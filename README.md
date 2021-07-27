@@ -27,14 +27,14 @@ An overview of the different hardware and software elements that can be used wit
 
 *Hardware*
 * RC+S: INS and lead extensor cable
-* Electrode tissue interface (Star Load)
+* Electrode tissue interface ('star Load', initial prototype implemented on a bread-board)
+  * Resistor unbalanced (1Kohm vs 4K7)
   * Resistor balanced (1Kohm)
-  * Resistor imbalanced (1Kohm vs 4K7)
-  * Resistor and capacitor imbalanced
+  * Resistor and capacitor unbalanced
 * Signal input/output:
-  * Signal generator
-  * neuroDAC (audio DAQ)
-  * preSonus (audio DAQ)
+  * Signal generator (config explained in this README)
+  * neuroDAC (audio DAQ) (not exaplined in this tutorial - see reference paper above)
+  * preSonus (audio DAQ) (from Maria's project - see reference repo above)
 * Signal acquistion: NI myDAQ
 
 *Software*
