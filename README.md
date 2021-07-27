@@ -35,7 +35,7 @@ An overview of the different hardware and software elements that can be used wit
   * Signal generator (config explained in this README)
   * neuroDAC (audio DAQ) (not exaplined in this tutorial - see reference paper above)
   * preSonus (audio DAQ) (from Maria's project - see reference repo above)
-* Signal acquistion: NI myDAQ
+* Signal acquistion: NI myDAQ (not explained here - [labview scripts for datalogging](https://github.com/jansoromeo/labview-DAQ)and RC+S example dataset recorded with the benchtop configuraiton explained before can be found [here](https://github.com/openmind-consortium/Analysis-rcs-data/tree/master/testDataSets/Benchtop/Simultaneous_RCS_and_DAQ))
 
 *Software*
 * UCSF software to interface RCS:
